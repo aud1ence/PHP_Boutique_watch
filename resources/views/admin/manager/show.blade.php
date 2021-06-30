@@ -10,6 +10,7 @@
                        <h2>{{ $product->productPrice }} &euro;</h2>
                         <div class="card-header-right">
                             <a href="{{ route('admin.list') }}"><i class="ti-arrow-left"></i></a>
+                            <a href="{{ route('admin.edit', $product->id) }}"><i class="ti-marker-alt"></i></a>
                             <a href="{{ route('admin.delete', $product->id) }}" onclick="return confirm('Are you sure?')"><i class="ti-trash"></i></a>
                         </div>
                     </div>

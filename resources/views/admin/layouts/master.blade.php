@@ -53,9 +53,6 @@
                     <a class="mobile-search morphsearch-search" href="#">
                         <i class="ti-search"></i>
                     </a>
-                    <a href="index.html">
-                        <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo"/>
-                    </a>
                     <a class="mobile-options">
                         <i class="ti-more"></i>
                     </a>
@@ -74,58 +71,11 @@
                         </li>
                     </ul>
                     <ul class="nav-right">
-                        <li class="header-notification">
-                            <a href="#!">
-                                <i class="ti-bell"></i>
-                                <span class="badge bg-c-pink"></span>
-                            </a>
-                            <ul class="show-notification">
-                                <li>
-                                    <h6>Notifications</h6>
-                                    <label class="label label-danger">New</label>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img class="d-flex align-self-center img-radius"
-                                             src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
-                                        <div class="media-body">
-                                            <h5 class="notification-user">John Doe</h5>
-                                            <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
-                                                elit.</p>
-                                            <span class="notification-time">30 minutes ago</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img class="d-flex align-self-center img-radius"
-                                             src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
-                                        <div class="media-body">
-                                            <h5 class="notification-user">Joseph William</h5>
-                                            <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
-                                                elit.</p>
-                                            <span class="notification-time">30 minutes ago</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img class="d-flex align-self-center img-radius"
-                                             src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
-                                        <div class="media-body">
-                                            <h5 class="notification-user">Sara Soudein</h5>
-                                            <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
-                                                elit.</p>
-                                            <span class="notification-time">30 minutes ago</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li class="user-profile header-notification">
                             <a href="#!">
-                                <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                                <span>John Doe</span>
+                                <img src="{{asset('backend/admin/assets/images/avatar-4.jpg')}}" class="img-radius" alt="User-Profile-Image">
+                                <span>Boss</span>
                                 <i class="ti-angle-down"></i>
                             </a>
                             <ul class="show-notification profile-notification">
@@ -168,72 +118,6 @@
                         <div class="main-body">
                             <div class="page-wrapper">
                                 <div class="page-body">
-                                    <div class="row">
-                                        <!-- card1 start -->
-                                        <div class="col-md-6 col-xl-3">
-                                            <div class="card widget-card-1">
-                                                <div class="card-block-small">
-                                                    <i class="icofont icofont-pie-chart bg-c-blue card1-icon"></i>
-                                                    <span class="text-c-blue f-w-600">Use space</span>
-                                                    <h4>49/50GB</h4>
-                                                    <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Get more space
-                                                            </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- card1 end -->
-                                        <!-- card1 start -->
-                                        <div class="col-md-6 col-xl-3">
-                                            <div class="card widget-card-1">
-                                                <div class="card-block-small">
-                                                    <i class="icofont icofont-ui-home bg-c-pink card1-icon"></i>
-                                                    <span class="text-c-pink f-w-600">Revenue</span>
-                                                    <h4>$23,589</h4>
-                                                    <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-pink f-16 icofont icofont-calendar m-r-10"></i>Last 24 hours
-                                                            </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- card1 end -->
-                                        <!-- card1 start -->
-                                        <div class="col-md-6 col-xl-3">
-                                            <div class="card widget-card-1">
-                                                <div class="card-block-small">
-                                                    <i class="icofont icofont-warning-alt bg-c-green card1-icon"></i>
-                                                    <span class="text-c-green f-w-600">Fixed issue</span>
-                                                    <h4>45</h4>
-                                                    <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-green f-16 icofont icofont-tag m-r-10"></i>Tracked via microsoft
-                                                            </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- card1 end -->
-                                        <!-- card1 start -->
-                                        <div class="col-md-6 col-xl-3">
-                                            <div class="card widget-card-1">
-                                                <div class="card-block-small">
-                                                    <i class="icofont icofont-social-twitter bg-c-yellow card1-icon"></i>
-                                                    <span class="text-c-yellow f-w-600">Followers</span>
-                                                    <h4>+562</h4>
-                                                    <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-yellow f-16 icofont icofont-refresh m-r-10"></i>Just update
-                                                            </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- card1 end -->
-
                                         <!-- Email Sent End -->
                                         @yield('content')
                                     </div>

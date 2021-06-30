@@ -3,7 +3,7 @@
 @section('content')
     <!-- Data widget start -->
     <div class="col-md-12 col-xl-12">
-        <form action="{{ route('admin.update') }}" method="post" enctype="multipart/form-data">
+        <form action="{{ route('admin.update', $product->id) }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="card project-task">
                 <div class="card-header">
@@ -37,7 +37,7 @@
                             </select>
                         </div>
                         <div class="col">
-                            <input type="text" name="productPrice" value="{{ old('productPrice') }}" class="form-control"
+                            <input type="text" name="productPrice" value="{{ $product->productPrice }}" class="form-control"
                                    placeholder="Product Price">
                         </div>
                     </div>
@@ -48,11 +48,11 @@
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-12">
-                            <textarea rows="5" cols="8" name="productDescription" class="form-control" placeholder="Product Description"></textarea>
+                            <textarea rows="5" cols="8" name="productDescription" class="form-control" placeholder="Product Description">{{ $product->productDescription }}</textarea>
                         </div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Change</button>
                     </div>
                 </div>
             </div>
